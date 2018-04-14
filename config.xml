@@ -38,26 +38,50 @@
     <plugin name="cordova-plugin-statusbar" source="npm" spec="~2.1.2" />
     <plugin name="cordova-plugin-vibration" source="npm" spec="~2.1.0" />
     <plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1" />
+ <platform name="ios">
+        <icon height="29" src="www/res/icons/ios/icon-small.png" width="29" />
+        <icon height="58" src="www/res/icons/ios/icon-small-2x.png" width="58" />
+        <icon height="40" src="www/res/icons/ios/icon-40.png" width="40" />
+        <icon height="80" src="www/res/icons/ios/icon-40-2x.png" width="80" />
+        <icon height="50" src="www/res/icons/ios/icon-50.png" width="50" />
+        <icon height="100" src="www/res/icons/ios/icon-50-2x.png" width="100" />
+        <icon height="57" src="www/res/icons/ios/icon.png" width="57" />
+        <icon height="114" src="www/res/icons/ios/icon-2x.png" width="114" />
+        <icon height="60" src="www/res/icons/ios/icon-60.png" width="60" />
+        <icon height="120" src="www/res/icons/ios/icon-60-2x.png" width="120" />
+        <icon height="180" src="www/res/icons/ios/icon-60-3x.png" width="180" />
+        <icon height="72" src="www/res/icons/ios/icon-72.png" width="72" />
+        <icon height="144" src="www/res/icons/ios/icon-72-2x.png" width="144" />
+        <icon height="76" src="www/res/icons/ios/icon-76.png" width="76" />
+        <icon height="152" src="www/res/icons/ios/icon-76-2x.png" width="152" />
+        <splash height="480" src="www/res/screens/ios/screen-iphone-portrait.png" width="320" />
+        <splash height="960" src="www/res/screens/ios/screen-iphone-portrait-2x.png" width="640" />
+        <splash height="1136" src="www/res/screens/ios/screen-iphone-portrait-568h-2x.png" width="640" />
+        <splash height="1334" src="www/res/screens/ios/screen-iphone-portrait-667h.png" width="750" />
+        <splash height="2208" src="www/res/screens/ios/screen-iphone-portrait-736h.png" width="1242" />
+        <splash height="1024" src="www/res/screens/ios/screen-ipad-portrait.png" width="768" />
+        <splash height="2048" src="www/res/screens/ios/screen-ipad-portrait-2x.png" width="1536" />
+    </platform>
     <platform name="android">
-        <icon density="ldpi" src="www/res/icon/android/ldpi-icon.png" />
-        <icon density="mdpi" src="www/res/icon/android/mdpi-icon.png" />
-        <icon density="hdpi" src="www/res/icon/android/hdpi-icon.png" />
-        <icon density="xhdpi" src="www/res/icon/android/xhdpi-icon.png" />
-        <icon density="xxhdpi" src="www/res/icon/android/xxhdpi-icon.png" />
-        <icon density="xxxhdpi" src="www/res/icon/android/xxxhdpi-icon.png" />
-        <splash platform="android" qualifier="land-ldpi" src="www/res/screen/android/land-ldpi.png" />
-        <splash platform="android" qualifier="land-mdpi" src="www/res/screen/android/land-mdpi.png" />
-        <splash platform="android" qualifier="land-hdpi" src="www/res/screen/android/land-hdpi.png" />
-        <splash platform="android" qualifier="land-xhdpi" src="www/res/screen/android/land-xhdpi.png" />
-        <splash platform="android" qualifier="land-xxhdpi" src="www/res/screen/android/land-xxdpi.png" />
-        <splash platform="android" qualifier="land-xxxhdpi" src="www/res/screen/android/land-xxxdpi.png" />
-        <splash platform="android" qualifier="port-ldpi" src="www/res/screen/android/ldpi.png" />
-        <splash platform="android" qualifier="port-mdpi" src="www/res/screen/android/mdpi.png" />
-        <splash platform="android" qualifier="port-hdpi" src="www/res/screen/android/hdpi.png" />
-        <splash platform="android" qualifier="port-xhdpi" src="www/res/screen/android/xhdpi.png" />
-        <splash platform="android" qualifier="port-xxhdpi" src="www/res/screen/android/xxhdpi.png" />
-        <splash platform="android" qualifier="port-xxxhdpi" src="www/res/screen/android/xxxhdpi.png" />
-  
+        <icon density="ldpi" src="www/res/icons/android/icon-36-ldpi.png" />
+        <icon density="mdpi" src="www/res/icons/android/icon-48-mdpi.png" />
+        <icon density="hdpi" src="www/res/icons/android/icon-72-hdpi.png" />
+        <icon density="xhdpi" src="www/res/icons/android/icon-96-xhdpi.png" />
+        <icon density="xxhdpi" src="www/res/icons/android/icon-144-xxhdpi.png" />
+        <icon density="xxxhdpi" src="www/res/icons/android/icon-192-xxxhdpi.png" />
+        <splash density="ldpi" src="www/res/screens/android/screen-ldpi-portrait.png" />
+        <splash density="mdpi" src="www/res/screens/android/screen-mdpi-portrait.png" />
+        <splash density="hdpi" src="www/res/screens/android/screen-hdpi-portrait.png" />
+        <splash density="xhdpi" src="www/res/screens/android/screen-xhdpi-portrait.png" />
+    </platform>
+    <platform name="wp8">
+        <icon height="99" src="res/icons/wp8/ApplicationIcon.png" width="99" />
+        <icon height="159" src="res/icons/wp8/Background.png" width="159" />
+    </platform>
+    <platform name="windows">
+        <icon height="150" src="res/icons/windows8/logo.png" width="150" />
+        <icon height="30" src="res/icons/windows8/smalllogo.png" width="30" />
+        <icon height="50" src="res/icons/windows8/storelogo.png" width="50" />
     </platform>
     <access origin="*" />
     <allow-intent href="http://*/*" />
