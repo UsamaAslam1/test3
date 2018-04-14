@@ -1,0 +1,32 @@
+.view-main-background {
+    background: url('images/main-bg.jpg');
+}
+
+.toolbar-inner {
+    justify-content: space-around;
+}
+
+#map {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.-fixed-bottom {
+    background: #f7f7f8;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    padding: 1.1em;
+    margin: 0 !important;
+    border-radius: 0 !important;
+}
+
+.-no-border::after {
+    height: 0px !important;
+    background-color: transparent !important;
+}
