@@ -57,7 +57,7 @@
         <splash platform="android" qualifier="port-xhdpi" src="www/res/screen/android/xhdpi.png" />
         <splash platform="android" qualifier="port-xxhdpi" src="www/res/screen/android/xxhdpi.png" />
         <splash platform="android" qualifier="port-xxxhdpi" src="www/res/screen/android/xxxhdpi.png" />
-        <splash src="splash.png" />
+  
     </platform>
     <access origin="*" />
     <allow-intent href="http://*/*" />
